@@ -1,5 +1,7 @@
 # QM Bench validation datasets
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24141790.svg)](https://doi.org/10.5281/zenodo.24141790)
+
 These files let anyone check the numbers behind https://qmbench.com/validation/ .
 Each `<case>.csv` is an input dataset exactly as used by the QM Bench validation harness.
 `expected-results.csv` lists the reference value for each statistic.
@@ -60,5 +62,5 @@ Cite as: QM Bench validation datasets (2026-10-24), https://qmbench.com/validati
 
 ## License and citation
 
-CC BY 4.0, see LICENSE.md. How to cite: see CITATION.cff, or use the DOI shown on Zenodo.
+CC BY 4.0, see LICENSE.md. How to cite: see CITATION.cff, or: Blažek, Ľ. (2026). QM Bench validation datasets for quality engineering calculations (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24141790
 Web version and live tools: https://qmbench.com/validation/

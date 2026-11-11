@@ -6,6 +6,7 @@ authors:
     given-names: "Ľubomír"
 version: "1.0.0"
 date-released: "2026-11-11"
+doi: "10.5281/zenodo.24141790"
 license: CC-BY-4.0
 url: "https://qmbench.com/validation/"
 repository-code: "https://github.com/lubomirblazek/qmbench-validation-data"
