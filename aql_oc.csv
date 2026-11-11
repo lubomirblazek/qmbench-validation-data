@@ -1,0 +1,4 @@
+case,acceptance_number,sample_size,fraction_defective
+1,2,20,0.05
+2,0,80,0.01
+3,7,125,0.04

@@ -1,0 +1,90 @@
+case,statistic,settings,expected,tolerance,source
+capability_xbar_r,sigma_within,LSL=9.8; USL=10.25; target=10,0.04236170822585262,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,sigma_overall,LSL=9.8; USL=10.25; target=10,0.05502596475181511,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,Cp,LSL=9.8; USL=10.25; target=10,1.7704668470906626,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,Cpk,LSL=9.8; USL=10.25; target=10,1.758417180875063,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,Pp,LSL=9.8; USL=10.25; target=10,1.3629929132233143,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,Ppk,LSL=9.8; USL=10.25; target=10,1.3537164844183598,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,ppm_overall,LSL=9.8; USL=10.25; target=10,43.62363867415404,1e-8,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,Cpk_ci95_lower,LSL=9.8; USL=10.25; target=10,1.551767034313591,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,anderson_darling_A2,LSL=9.8; USL=10.25; target=10,2.264621383912072,0.000001,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,Cpm,LSL=9.8; USL=10.25; target=10,1.2537257736608622,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_xbar_r,UCL_xbar,LSL=9.8; USL=10.25; target=10,10.080322400000002,0.002,AIAG constants
+capability_xbar_r,UCL_R,LSL=9.8; USL=10.25; target=10,0.20829946666666635,0.002,AIAG constants
+capability_imr,sigma_within,LSL=9.8; USL=10.25,1.1324227671595146,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_imr,sigma_overall,LSL=9.8; USL=10.25,1.1611746225072281,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_imr,Cp,LSL=9.8; USL=10.25,0.06622968221322884,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_imr,Cpk,LSL=9.8; USL=10.25,-11.692354898604565,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_imr,Pp,LSL=9.8; USL=10.25,0.06458976845193068,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_imr,Ppk,LSL=9.8; USL=10.25,-11.402840393031811,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+capability_imr,ppm_overall,LSL=9.8; USL=10.25,1000000,1e-8,SciPy 1.18.1 / NumPy 2.5.4
+gage_rr_aiag,interaction_p,ANOVA; 6 sigma,0.9741064043290462,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+gage_rr_aiag,pct_study_var_GRR,ANOVA; 6 sigma,27.860650881142284,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+gage_rr_aiag,ndc,ANOVA; 6 sigma,4,0,SciPy 1.18.1 / NumPy 2.5.4
+gage_rr_aiag,EV,average and range; tolerance=5; 6 sigma,0.20186,0.0005,AIAG MSA 4th ed.
+gage_rr_aiag,AV,average and range; tolerance=5; 6 sigma,0.22967,0.0005,AIAG MSA 4th ed.
+gage_rr_aiag,GRR,average and range; tolerance=5; 6 sigma,0.30577,0.0005,AIAG MSA 4th ed.
+gage_rr_aiag,pct_GRR,average and range; tolerance=5; 6 sigma,26.68,0.0005,AIAG MSA 4th ed.
+type1_gauge,Cg,reference=10; tolerance=0.1; K=20%,3.4862079535420163,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+type1_gauge,Cgk,reference=10; tolerance=0.1; K=20%,2.443134533841976,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+type1_gauge,bias_p,reference=10; tolerance=0.1; K=20%,3.700409086774066e-27,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+linearity_bias,slope,process_variation=0.6,0.00181166666666668,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+linearity_bias,intercept,process_variation=0.6,-0.009636666666666708,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+linearity_bias,R2,process_variation=0.6,0.18391409853110793,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+linearity_bias,se_slope,process_variation=0.6,0.000501100369646415,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+linearity_bias,p_slope,process_variation=0.6,0.0006289731382408706,1e-8,SciPy 1.18.1 / NumPy 2.5.4
+linearity_bias,se_intercept,process_variation=0.6,0.0033239238168511092,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+linearity_bias,avg_bias,process_variation=0.6,0.0012333333333333714,1e-9,SciPy 1.18.1 / NumPy 2.5.4
+p_chart,CL,3 sigma,0.052875935001289655,1e-12,Formula
+p_chart,UCL_sample1,3 sigma,0.0992039906012463,1e-12,Formula
+u_chart,CL,3 sigma,1.3944444444444444,1e-12,Formula
+u_chart,UCL_sample1,3 sigma,2.4625779056322727,1e-12,Formula
+aql_oc,P_accept_case1,case 1,0.9245163262115037,1e-10,SciPy 1.18.1 / NumPy 2.5.4
+aql_oc,P_accept_case2,case 2,0.4475232137638109,1e-10,SciPy 1.18.1 / NumPy 2.5.4
+aql_oc,P_accept_case3,case 3,0.870926239817349,1e-10,SciPy 1.18.1 / NumPy 2.5.4
+aql_plans,code_letter_case1,normal inspection; case 1,J,0,ISO 2859-1 Table 2-A
+aql_plans,n_case1,normal inspection; case 1,80,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case1,normal inspection; case 1,1,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case1,normal inspection; case 1,2,0,ISO 2859-1 Table 2-A
+aql_plans,code_letter_case2,normal inspection; case 2,J,0,ISO 2859-1 Table 2-A
+aql_plans,n_case2,normal inspection; case 2,80,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case2,normal inspection; case 2,2,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case2,normal inspection; case 2,3,0,ISO 2859-1 Table 2-A
+aql_plans,code_letter_case3,normal inspection; case 3,J,0,ISO 2859-1 Table 2-A
+aql_plans,n_case3,normal inspection; case 3,80,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case3,normal inspection; case 3,5,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case3,normal inspection; case 3,6,0,ISO 2859-1 Table 2-A
+aql_plans,code_letter_case4,normal inspection; case 4,H,0,ISO 2859-1 Table 2-A
+aql_plans,n_case4,normal inspection; case 4,50,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case4,normal inspection; case 4,1,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case4,normal inspection; case 4,2,0,ISO 2859-1 Table 2-A
+aql_plans,code_letter_case5,normal inspection; case 5,L,0,ISO 2859-1 Table 2-A
+aql_plans,n_case5,normal inspection; case 5,200,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case5,normal inspection; case 5,3,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case5,normal inspection; case 5,4,0,ISO 2859-1 Table 2-A
+aql_plans,code_letter_case6,normal inspection; case 6,E,0,ISO 2859-1 Table 2-A
+aql_plans,n_case6,normal inspection; case 6,13,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case6,normal inspection; case 6,0,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case6,normal inspection; case 6,1,0,ISO 2859-1 Table 2-A
+aql_plans,code_letter_case7,normal inspection; case 7,K,0,ISO 2859-1 Table 2-A
+aql_plans,n_case7,normal inspection; case 7,125,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case7,normal inspection; case 7,10,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case7,normal inspection; case 7,11,0,ISO 2859-1 Table 2-A
+aql_plans,code_letter_case8,normal inspection; case 8,M,0,ISO 2859-1 Table 2-A
+aql_plans,n_case8,normal inspection; case 8,315,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case8,normal inspection; case 8,3,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case8,normal inspection; case 8,4,0,ISO 2859-1 Table 2-A
+aql_plans,code_letter_case9,normal inspection; case 9,K,0,ISO 2859-1 Table 2-A
+aql_plans,n_case9,normal inspection; case 9,125,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case9,normal inspection; case 9,0,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case9,normal inspection; case 9,1,0,ISO 2859-1 Table 2-A
+aql_plans,code_letter_case10,normal inspection; case 10,B,0,ISO 2859-1 Table 2-A
+aql_plans,n_case10,normal inspection; case 10,3,0,ISO 2859-1 Table 2-A
+aql_plans,Ac_case10,normal inspection; case 10,0,0,ISO 2859-1 Table 2-A
+aql_plans,Re_case10,normal inspection; case 10,1,0,ISO 2859-1 Table 2-A
+regression,intercept,simple linear y = a + b x,0.03636363636363704,0.000001,SciPy 1.18 scipy.stats.linregress (src/lib/engine/regression.test.ts)
+regression,slope,simple linear y = a + b x,1.9982517482517483,0.000001,SciPy 1.18 scipy.stats.linregress (src/lib/engine/regression.test.ts)
+regression,se_intercept,simple linear y = a + b x,0.1264406282193372,0.000001,SciPy 1.18 scipy.stats.linregress (src/lib/engine/regression.test.ts)
+regression,se_slope,simple linear y = a + b x,0.01717989834186847,0.000001,SciPy 1.18 scipy.stats.linregress (src/lib/engine/regression.test.ts)
+regression,residual_sd,simple linear y = a + b x,0.20544170391206718,0.000001,SciPy 1.18 scipy.stats.linregress (src/lib/engine/regression.test.ts)
+regression,r,simple linear y = a + b x,0.999630622786399,0.000001,SciPy 1.18 scipy.stats.linregress (src/lib/engine/regression.test.ts)

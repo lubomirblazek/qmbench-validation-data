@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use these datasets, please cite them as below."
+title: "QM Bench validation datasets for quality engineering calculations"
+authors:
+  - family-names: "Blažek"
+    given-names: "Ľubomír"
+version: "1.0.0"
+date-released: "2026-11-11"
+license: CC-BY-4.0
+url: "https://qmbench.com/validation/"
+repository-code: "https://github.com/lubomirblazek/qmbench-validation-data"
+keywords: [statistical process control, process capability, Cpk, gage R&R, measurement system analysis, acceptance sampling, AQL, ISO 2859-1, validation]

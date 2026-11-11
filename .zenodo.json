@@ -1,0 +1,9 @@
+{
+  "title": "QM Bench validation datasets for quality engineering calculations",
+  "upload_type": "dataset",
+  "description": "Input datasets and reference results used to validate the free quality engineering tools at https://qmbench.com: process capability (Cp, Cpk, Pp, Ppk), X-bar R and I-MR control limits, Gage R&R (ANOVA and average and range), type 1 gauge study, linearity and bias, p and u charts, ISO 2859-1 AQL sampling plans and OC curve, and linear regression. Reference values from SciPy/NumPy or published AIAG and ISO tables.",
+  "creators": [{ "name": "Blažek, Ľubomír", "affiliation": "QM Bench" }],
+  "license": "cc-by-4.0",
+  "keywords": ["statistical process control", "process capability", "Cpk", "gage R&R", "measurement system analysis", "acceptance sampling", "AQL", "ISO 2859-1", "validation"],
+  "related_identifiers": [{ "identifier": "https://qmbench.com/validation/", "relation": "isSupplementTo", "scheme": "url" }]
+}
